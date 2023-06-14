@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+h2,
+ul,
+ol {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1e86ff;
+}
