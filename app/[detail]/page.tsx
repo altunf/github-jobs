@@ -26,12 +26,12 @@ export default function Detail() {
   return (
     <div>
       <Header />
-      <div className="flex w-[1197px] mt-[33px] mb-[196px]">
-        <div className="w-[308px]">
+      <div className="flex mobile:flex-wrap laptop:w-[1197px] tablet:w-[635px] mobile:w-[375px] mt-[33px] mb-[196px]">
+        <div className="laptop:w-[308px] tablet:w-[225px]">
           <div className=" mb-9">
             <Link
               href={"/"}
-              className={`${poppins500.className} flex items-center  text-sm`}
+              className={`${poppins500.className} flex items-center text-sm`}
             >
               <div className="w-5 mr-4 ">{arrow}</div>Back to search
             </Link>
@@ -47,14 +47,16 @@ export default function Detail() {
           ></div>
         </div>
 
-        <div className="w-[889px] ">
-          <div className="flex items-center text-[#334680]">
+        <div className="laptop:w-[889px] tablet:w-[410px]">
+          <div className="flex mobile:flex-wrap mobile:gap-2 items-center text-[#334680]">
             <div className={`${roboto700.className} mb-1 text-2xl mr-4 `}>
               {job.title}
             </div>
             <CardType type={job.type} />
           </div>
-          <div className={`${roboto500.className} text-xs text-[#B7BCCE] flex`}>
+          <div
+            className={`${roboto500.className} mobile:mt-2 text-xs text-[#B7BCCE] flex`}
+          >
             <CardIcon name={"clock"} created={job.created_at} />
           </div>
           <div className="flex mt-8 items-center h-[42px] ">

@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <SearchBar />
-      <div className="flex flex-wrap justify-between ">
-        <Sidebar />
-        <ResultArea />
+      <div className="flex flex-col items-center justify-center">
+        <SearchBar />
+        <div className=" tablet:flex tablet:flex-wrap ">
+          <Sidebar />
+          <ResultArea />
+        </div>
       </div>
     </div>
   );

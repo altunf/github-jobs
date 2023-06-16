@@ -16,14 +16,14 @@ export const SearchBar = () => {
   };
 
   return (
-    <div className="mt-8 flex justify-center h-[138px] w-[1201px] bg-search rounded-lg">
-      <div className="m-auto  bg-white  h-[55px] w-[790px] items-center rounded">
+    <div className="flex justify-center items-center desktop:w-[1201px] laptop:w-[900px] tablet:w-[635px] mobile:w-[351px] h-[138px] mt-8 bg-search rounded-lg">
+      <div className="items-center laptop:w-[700px] tablet:w-[590px] mobile:w-[315px] m-auto bg-white h-[55px] rounded">
         <form
           onSubmit={handleSearchFormSubmit}
-          className="flex justify-center items-center h-[55px] "
+          className="flex justify-center items-center h-[55px]"
         >
           <input
-            className={`${roboto400.className} rounded  h-[47px] w-[640px] text-xs`}
+            className={`${roboto400.className} rounded  h-[47px] tablet:w-[440px] mobile:w-[210px] mobile:h-[55px] text-xs`}
             type="text"
             value={searchTerm}
             onChange={handleSearchInputChange}
@@ -31,7 +31,7 @@ export const SearchBar = () => {
           />
           <button
             type="submit"
-            className={`${roboto500.className} text-white bg-[#1E86FF] text-base rounded h-[47px] w-[146px] cursor-pointer`}
+            className={`${roboto500.className} tablet:w-[145px] mobile:w-[100px] text-white  bg-[#1E86FF] text-base rounded h-[47px] cursor-pointer`}
           >
             Search
           </button>

@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex justify-center items-center ">
+      <body className="flex justify-center items-center">
         <JobsContextProvider>{children}</JobsContextProvider>
       </body>
     </html>

@@ -12,14 +12,14 @@ export const ResultArea = () => {
   const filterSelector = filter.length > 5 ? paginationFilter : filter;
 
   return (
-    <div className="w-[790px]  mt-9 mb-[196px]">
+    <div className="desktop:w-[790px]  laptop:w-[520px] tablet:w-[325px] mobile:w-[351px] mt-9 mb-[196px]">
       {filterSelector.map((item: any, index: number) => (
         <Link href={`/detail?id=${item.id}`} key={index}>
           <Card item={item} />
         </Link>
       ))}
 
-      <div className="flex justify-end items-center ">
+      <div className="flex justify-end  items-center ">
         <Pagination />
       </div>
     </div>
