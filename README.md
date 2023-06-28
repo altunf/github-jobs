@@ -20,6 +20,8 @@
 
 ![jobs](https://github.com/altunf/github-jobs/assets/116505991/7e539f6f-5741-4898-ac69-e16f305f29e5)
 
+![jobs2](https://github.com/altunf/github-jobs/assets/116505991/81870780-8b39-45f0-aa0e-098a020252cc)
+
 I have successfully created a job search application utilizing an API.
 
 ### Built With
