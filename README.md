@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Github Jobs</h1>
 
-## Getting Started
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-First, run the development server:
+<div align="center">
+  <h3>
+    <a href="https://github-jobs-indol.vercel.app/" target="_blank">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps" target="_blank">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![jobs](https://github.com/altunf/github-jobs/assets/116505991/7e539f6f-5741-4898-ac69-e16f305f29e5)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I have successfully created a job search application utilizing an API.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Built With
 
-## Learn More
+- Next JS
+- React JS
+- TypeScript
+- Tailwind
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I fulfilled user stories below:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- User story: I can see a list of jobs in a city by default
+- User story: I can search for jobs with a given keyword
+- User story: I can search for jobs with a city name, zip code, or other location
+- User story: I can select one option from at least 4 pre-defined options
+- User story: I can search for a full-time job only
+- User story: I can see a list of jobs with their logo, company name, location, and posted time.
+- User story: When I select a job, I can see job descriptions and how to apply like the given design.
+- User story: When I am on the job details page, I can go back to the search page
+- User story (optional): I can see a list of jobs in the closest city from my location by default
+- User story (optional): I can see jobs on different pages, 5 items on each page
 
-## Deploy on Vercel
+## My Portfolio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- devChallenges.io [portfolio](https://devchallenges.io/portfolio/altunf)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
